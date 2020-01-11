@@ -302,7 +302,7 @@ main .banner-fondo p{
 .footer{
   width: 94%;
   max-width: 1300px;
-  background: blue;
+  background: #008edd;
   border-top-right-radius: 200px;
   margin-bottom: 0;
 }
