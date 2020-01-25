@@ -1,0 +1,33 @@
+/*HEADER*/
+
+header {
+    width: 90%;
+    max-width: 1000px;
+    padding: 20px 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    .logo {
+      img {
+        max-width: 60px;
+        width: 100%;
+        vertical-align: top;
+      }
+    }
+  
+    .menu {
+      a {
+        color: #000;
+        text-decoration: none;
+        margin-right: 40px;
+        font-size: 18px;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }

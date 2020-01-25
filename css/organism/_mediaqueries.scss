@@ -1,0 +1,229 @@
+/*MEDIA QUERIES*/
+
+/*Tablet*/
+@media (max-width: 980px) {
+    .popular,
+    .all-article {
+      h2 {
+        text-align: center;
+        text-shadow: 2px 5px 3px black;
+        font-size: 5rem;
+      }
+  
+      article {
+        width: 100%;
+        transition: all 1s ease;
+  
+        &:hover {
+          box-shadow: 5px 5px 5px grey;
+          transform: rotate(2deg);
+        }
+  
+        h3 {
+          text-align: center;
+        }
+  
+        p {
+          justify-content: left;
+        }
+      }
+  
+      .img-steve {
+        width: 100%;
+        transition: all 3s ease;
+        box-shadow: 10px 2px 3px grey;
+  
+        &:hover {
+          box-shadow: 0px 0px 10px blue;
+        }
+      }
+  
+      .img-contenido {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+  
+        img {
+          margin: 0;
+        }
+  
+        .img1 {
+          margin-right: 10px;
+        }
+  
+        .img2 {
+          margin-left: 0;
+          margin-right: 20px;
+        }
+  
+        h4 {
+          display: none;
+        }
+      }
+    }
+  }
+  
+  /*mobile large*/
+  @media (max-width: 850px) {
+    .footer {
+      width: 100%;
+  
+      .contenedor {
+        .footer1 {
+          display: flex;
+          flex-direction: column;
+  
+          .contenido1 {
+            width: 100%;
+            display: block;
+            margin-bottom: 50px;
+  
+            p {
+              color: #000;
+            }
+          }
+  
+          .boton {
+            width: 100%;
+  
+            a {
+              &:hover {
+                box-shadow: 2px 5px 5px white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  /*Mobile*/
+  
+  @media (max-width: 500px) {
+    header {
+      .menu {
+        display: none;
+      }
+    }
+  
+    main {
+      .banner-fondo {
+        h1 {
+          font-size: 3rem;
+          color: grey;
+          text-shadow: 10px 3px 8px blue;
+        }
+  
+        p {
+          display: none;
+        }
+      }
+  
+      .contenedor {
+        .popular {
+          .img-contenido {
+            h4,
+            p {
+              display: none;
+            }
+  
+            figure {
+              &::before {
+                content: "Titulo Imagen";
+                color: blue;
+                font-size: 2rem;
+              }
+  
+              img {
+                height: 300px;
+                vertical-align: text-top;
+                padding-top: 20px;
+              }
+            }
+          }
+        }
+  
+        .all-article {
+          .cont-all-article {
+            .article1 {
+              display: flex;
+              flex-direction: column;
+              flex-wrap: wrap;
+              margin-bottom: 0;
+  
+              figure {
+                width: 100%;
+                display: block;
+              }
+  
+              img {
+                  max-width: 100%;          
+              } 
+              
+              .texto {
+                width: 100%;
+                padding-top: 0;
+                
+                h5 {
+                  text-align: center;
+                  font-weight: bold;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .footer {
+  
+      .contenedor {
+  
+        .footer2 {
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+  
+          .columna1 {
+            width: 100%;
+            margin-bottom: 20px;
+  
+            h5 {
+              text-align: center;
+              color: #000;
+            }
+          }
+  
+          .columna2 {
+            width: 100%;
+            margin-bottom: 20px;
+  
+            h5 {
+              text-align: center;
+              color: #000;
+              font-weight: bold;
+            }
+  
+            ul {
+              text-align: center;
+            }
+          }
+  
+          .columna3 {
+            width: 100%;
+            
+  
+            h5 {
+              text-align: center;
+              color: #000;  
+              font-weight: bold;          
+            }
+  
+            ul {
+              text-align: center;            
+            }
+          }
+        }
+      }
+    }
+  }

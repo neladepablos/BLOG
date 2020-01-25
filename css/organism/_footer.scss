@@ -1,0 +1,135 @@
+/*FOOTER*/
+.footer {
+    width: 94%;
+    max-width: 1300px;
+    background: #008edd;
+    border-top-right-radius: 200px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+  
+    .contenedor {
+      padding: 40px;
+  
+      .footer1 {
+        padding-top: 90px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+  
+        .contenido1 {
+          width: 50%;
+          display: block;
+  
+          h5 {
+            color: #fff;
+            line-height: 3.8rem;
+            font-size: 3.9rem;
+            margin-bottom: 20px;
+          }
+  
+          p {
+            color: #fff;
+            line-height: 2.8rem;
+            color: grey;
+          }
+        }
+  
+        .boton {
+          width: 40%;
+          text-align: center;
+  
+          a {
+            width: 100%;
+            background: black;
+            padding: 20px 80px;
+            border-radius: 15px;
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+          }
+        }
+      }
+  
+      .footer2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+  
+        .columna1 {
+          width: 50%;
+  
+          h5 {
+            margin-bottom: 20px;
+            color: white;
+            font-weight: bold;
+            font-size: 3rem;
+          }
+  
+          ol {
+            list-style: upper-latin;
+            color: #fff;
+            font-weight: bold;
+  
+            li {
+              margin-bottom: 20px;
+            }
+          }
+        }
+  
+        .columna2 {
+          width: 20%;
+  
+          h5 {
+            color: #fff;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+          }
+  
+          ul {
+            li {
+              margin-bottom: 20px;
+              color: #fff;
+              font-weight: bold;
+            }
+          }
+        }
+  
+        .columna3 {
+          width: 20%;
+  
+          h5 {
+            color: #fff;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+          }
+  
+          ul {
+            list-style: none;
+  
+            li {
+              margin-bottom: 20px;
+  
+              a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: bold;
+  
+                &:hover {
+                  color: black;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .linea {
+      width: 100%;
+      height: 2px;
+      background: grey;
+    }
+  }
