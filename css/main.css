@@ -642,4 +642,104 @@ i:hover {
 }
 
 /*Mobile*/
+@media (max-width: 500px) {
+  header .menu {
+    display: none;
+  }
+  main .banner-fondo h1 {
+    font-size: 3rem;
+    color: grey;
+    text-shadow: 10px 3px 8px blue;
+  }
+  main .banner-fondo p {
+    display: none;
+  }
+  main .contenedor .popular .img-contenido h4,
+  main .contenedor .popular .img-contenido p {
+    display: none;
+  }
+  main .contenedor .popular .img-contenido figure::before {
+    content: "Titulo Imagen";
+    color: blue;
+    font-size: 2rem;
+  }
+  main .contenedor .popular .img-contenido figure img {
+    height: 300px;
+    vertical-align: text-top;
+    padding-top: 20px;
+  }
+  main .contenedor .all-article .cont-all-article .article1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+  main .contenedor .all-article .cont-all-article .article1 figure {
+    width: 100%;
+    display: block;
+  }
+  main .contenedor .all-article .cont-all-article .article1 img {
+    max-width: 100%;
+  }
+  main .contenedor .all-article .cont-all-article .article1 .texto {
+    width: 100%;
+    padding-top: 0;
+  }
+  main .contenedor .all-article .cont-all-article .article1 .texto h5 {
+    text-align: center;
+    font-weight: bold;
+  }
+  .footer .contenedor .footer2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .contenedor .footer2 .columna1 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .footer .contenedor .footer2 .columna1 h5 {
+    text-align: center;
+    color: #000;
+  }
+  .footer .contenedor .footer2 .columna2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .footer .contenedor .footer2 .columna2 h5 {
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+  }
+  .footer .contenedor .footer2 .columna2 ul {
+    text-align: center;
+  }
+  .footer .contenedor .footer2 .columna3 {
+    width: 100%;
+  }
+  .footer .contenedor .footer2 .columna3 h5 {
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+  }
+  .footer .contenedor .footer2 .columna3 ul {
+    text-align: center;
+  }
+  .footer .contenedor .footer2 .columna3 ul a:hover {
+    background: black;
+    color: white;
+  }
+}
 /*# sourceMappingURL=main.css.map */
